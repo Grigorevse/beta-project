@@ -9,7 +9,6 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
 }
-
 .container {
   max-width: 928px;
   margin: 0 auto;
@@ -29,26 +28,32 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #0b3f70;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+  background-size: 19px;
 }
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
+  background-image: url("img/mail.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+  background-image: url("img/phone.svg");
 }
 
+.header-fb {
+    padding-left: 25px;
+    background-image: url("img/fblogo.svg");
+  }
+
 .hero-image {
-  margin-bottom: 620px;
-  background-image: url(https://sun4-15.userapi.com/gOcm2SYyzK5a6qWzps73b6y2vuqLq19M-S9ocw/-kARsI3QGZo.jpg);
-  height: 450px;
+  margin-bottom: 10px;
+  margin-left: 68px;
+  height: 170px;
 }
 
 .hero-image .container {
@@ -71,7 +76,8 @@ body {
 }
 
 .intro {
-  margin: 0 0 120px;
+  margin: 20 15 120px;
+  margin-left: 30px;
 }
 
 .subheading {
@@ -84,13 +90,14 @@ body {
 }
 
 .user-image {
-  margin: 0 0 32px;
+  margin: 10 10 32px;
   text-align: center;
+  border-radius: 13px;
 }
 
 .intro h3,
 .portfolio h3 {
-  margin: 0 0 12px;
+  margin: 30px 0 12px;
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
@@ -98,6 +105,7 @@ body {
 
 .intro p {
   margin: 0 0 32px;
+  margin-left: 30px;
 }
 
 .skills-list {
@@ -112,11 +120,15 @@ body {
 }
 
 .skill-html {
-  background-image: url("img/icon-html.svg");
+  background-image: url("img/html.svg");
+  background-size: 30px;
+  margin-left: 60%;
 }
 
 .skill-css {
-  background-image: url("img/icon-css.svg");
+  background-image: url("img/css.svg");
+  background-size: 25px;
+  margin-left: 40%;
 }
 
 .level {
@@ -138,6 +150,7 @@ body {
 
 .portfolio {
   margin: 0 0 120px;
+  margin-left: 30px;
 }
 
 .projects {
@@ -151,8 +164,10 @@ body {
 }
 
 .project-image {
-  margin: 0 0 24px;
+  margin: 0 0 0px;
   text-align: center;
+  border-radius: 15px;
+  border-color: orange;
 }
 
 .projects p {
@@ -165,9 +180,10 @@ body {
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: #288be6;
   color: #ffffff;
+  margin-bottom: 15px;
 }
 
 .page-footer {
@@ -182,14 +198,21 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+  background-size: 19px;
 }
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+  background-image: url("img/mail.svg");
+  background-blend-mode: normal;
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
+  background-image: url("img/phone.svg");
 }
+
+.footer-fb {
+    padding-left: 25px;
+    background-image: url("img/fblogo.svg");
+  }
