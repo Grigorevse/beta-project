@@ -1,218 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
 body {
-  min-width: 960px;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
 }
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: rgb(30, 141, 205);
+}
+
+.img-instahead {
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    width: 15%;
+}
+
+.blocks {
+    text-align: center;
+}
+
 .container {
-  max-width: 928px;
-  margin: 0 auto;
-  padding: 0 16px;
+    font-family: 'Manrope', sans-serif;
+    max-width: 100%;
+    margin: 0 0% 0;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    background-color: rgb(30, 141, 205);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    background-image: url("img/tvklogowhite.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 30px;
+    background-size: 160px;
 }
 
 .page-header {
-  margin-left: 0 0 160px;
-  padding: 32px 0 32px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.page-header .container,
-.page-footer .container {
-  max-width: 1408px;
-  text-align: left;
+.list-numb-white {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+    color: rgb(30, 141, 205);
 }
 
-.page-header a {
-  margin-left: 56px;
-  color: #0b3f70;
-  text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 19px;
+.list-numb-blue {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(30, 141, 205);
 }
 
-.header-email {
-  padding-left: 30px;
-  background-image: url("img/mail.svg");
+.list-numb-empty {
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(30, 141, 205);
 }
 
-.header-phone {
-  padding-left: 25px;
-  background-image: url("img/phone.svg");
+.list-pic {
+    color: rgb(30, 141, 205);
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-image: url("img/pic.svg");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top;
+    padding-top: 90px;
+    text-align: center;
 }
 
-.header-fb {
-    padding-left: 25px;
-    background-image: url("img/fblogo.svg");
-  }
-
-.hero-image {
-  margin-bottom: 10px;
-  margin-left: 68px;
-  height: 170px;
+.att {
+    margin-left: 10px;
+    margin-top: 20px;
+    background-image: url("img/att.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top;
+    padding-top: 38px;
+    font-size: 0.8em;
 }
 
-.hero-image .container {
-  max-width: 1408px;
-  text-align: center;
+.list-inst {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color:rgb(30, 141, 205);
+    background-image: url("img/insta.svg");
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: top;
+    padding-top: 95px;
+    padding-bottom: 20px;
 }
 
-.heading {
-  margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
-  line-height: 96px;
-  font-weight: 400;
+.att-white {
+    color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-image: url("img/att-white.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top;
+    background-color: rgb(30, 141, 205);
+    padding-top: 38px;
+    padding-bottom: 25px;
+    font-size: 0.8em;
 }
 
-.hero-image p {
-  margin: 0;
-  font-size: 32px;
-  line-height: 48px;
+.list-text {
+    color: rgb(30, 141, 205);
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("img/txt.svg");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top;
+    padding-top: 90px;
+    text-align: center;
 }
 
-.intro {
-  margin: 20 15 120px;
-  margin-left: 30px;
+.list-time {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color:rgb(30, 141, 205);
+    background-image: url("img/time.svg");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top;
+    padding-top: 85px;
+    padding-bottom: 20px;
 }
 
-.subheading {
-  margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 64px;
-  line-height: 80px;
-  font-weight: 400;
-  text-align: center;
+.list-tg {
+    color: rgb(30, 141, 205);
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("img/tg.svg");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top;
+    padding-top: 90px;
+    text-align: center;
 }
 
-.user-image {
-  margin: 10 10 32px;
-  text-align: center;
-  border-radius: 13px;
+.list-emoji {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color:rgb(30, 141, 205);
+    background-image: url("img/emoji.svg");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: top;
+    padding-top: 85px;
+    padding-bottom: 20px;
 }
 
-.intro h3,
-.portfolio h3 {
-  margin: 30px 0 12px;
-  font-size: 28px;
-  line-height: 40px;
-  font-weight: 500;
-}
-
-.intro p {
-  margin: 0 0 32px;
-  margin-left: 30px;
-}
-
-.skills-list {
-  margin: 0;
-  padding: 0;
-}
-
-.skills-list dt {
-  padding-left: 32px;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.skill-html {
-  background-image: url("img/html.svg");
-  background-size: 30px;
-  margin-left: 60%;
-}
-
-.skill-css {
-  background-image: url("img/css.svg");
-  background-size: 25px;
-  margin-left: 40%;
-}
-
-.level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
-  border-radius: 8px;
-}
-
-.level div {
-  margin: 1px;
-  height: 12px;
-  background-color: #288be6;
-  border-radius: 6px;
-}
-
-.portfolio {
-  margin: 0 0 120px;
-  margin-left: 30px;
-}
-
-.projects {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.projects li {
-  margin: 0 0 80px;
-}
-
-.project-image {
-  margin: 0 0 0px;
-  text-align: center;
-  border-radius: 15px;
-  border-color: orange;
-}
-
-.projects p {
-  margin: 0 0 24px;
-}
-
-.button {
-  padding: 6px 20px;
-  display: inline-block;
-  vertical-align: baseline;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 10px;
-  background-color: #288be6;
-  color: #ffffff;
-  margin-bottom: 15px;
-}
-
-.page-footer {
-  padding: 40px 0;
-  background-color: #00417d;
-  color: #ffffff;
-}
-
-.page-footer a {
-  margin-left: 56px;
-  color: inherit;
-  text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 19px;
-}
-
-.footer-email {
-  padding-left: 30px;
-  background-image: url("img/mail.svg");
-  background-blend-mode: normal;
+footer {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .footer-phone {
-  padding-left: 25px;
-  background-image: url("img/phone.svg");
+    background-image: url("img/phone.svg");
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: 80px;
+    margin-top: 10px;
+    padding-top: 60px;
 }
 
-.footer-fb {
-    padding-left: 25px;
-    background-image: url("img/fblogo.svg");
-  }
+.footer-soc {
+    text-align: center;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.footer-soc-img {
+    height: 40px;
+}
