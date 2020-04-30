@@ -16,6 +16,10 @@ a {
     color: rgb(30, 141, 205);
 }
 
+a:hover {
+    color: #C92640;
+}
+
 .img-instahead {
     margin-bottom: 0px;
     padding-top: 15px;
@@ -219,7 +223,7 @@ footer {
 }
 
 .footer-soc-img {
-    height: 150%;
-    width: 4.5%;
+    height: 80px;
+    width: 130px;
     text-align: justify;
 }
