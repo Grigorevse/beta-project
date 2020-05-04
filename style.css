@@ -14,6 +14,7 @@ p {
 
 a {
     color: rgb(30, 141, 205);
+    transition: 0.5s;
 }
 
 a:hover {
@@ -35,97 +36,73 @@ a:hover {
     font-family: 'Manrope', sans-serif;
     max-width: 100%;
     margin: 0 0% 0;
-    padding-bottom: 20px;
-    padding-top: 90px;
-    background-color: rgb(30, 141, 205);
     color: white;
-    text-align: center;
-    font-weight: 900;
-    background-image: url("img/tvklogowhite.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 160px;
-}
-
-.page-header {
-    font-family: 'Manrope', sans-serif;
-    font-size: 1.2em;
     font-weight: 700;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
 }
 
-.list-numb-white {
-    padding: 0px;
-    margin: 0px;
-    margin-top: 10px;
-    text-align: center;
-    font-weight: 900;
-    font-size: 2em;
-    color: rgb(30, 141, 205);
+.container .logo {
+    height: 130px;
 }
 
-.list-numb-blue {
-    padding: 0px;
-    margin: 0px;
-    margin-top: 20px;
-    text-align: center;
-    font-weight: 900;
-    font-size: 2em;
+.container p {
+    font-size: 35px;
+    text-align: right;
+}
+
+.container a {
     color: white;
+}
+
+.blocks-item {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.blocks-item img {
+    height: 60px;
+}
+
+.blocks-item_blue {
     background-color: rgb(30, 141, 205);
 }
 
-.list-numb-empty {
-    height: 30px;
-    padding: 0px;
-    margin: 0px;
-    margin-top: 20px;
-    text-align: center;
+.blocks-item .numb {
     font-weight: 900;
     font-size: 2em;
     color: white;
-    background-color: rgb(30, 141, 205);
 }
 
-.list-pic {
+.blocks-item .numb_blue {
     color: rgb(30, 141, 205);
+}
+
+.blocks-item-text {
+    color: white;
     font-weight: 700;
     font-size: 1.5em;
     margin-left: 0px;
-    margin-top: 10px;
-    background-image: url("img/pic.svg");
-    background-repeat: no-repeat;
-    background-size: 80px;
-    background-position: top;
-    padding-top: 90px;
-    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.blocks-item-text_blue {
+    color: rgb(30, 141, 205);
 }
 
 .att {
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 5px;
     background-image: url("img/att.svg");
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: top;
     padding-top: 38px;
     font-size: 0.8em;
-}
-
-.list-inst {
-    color: white;
-    font-weight: 700;
-    font-size: 1.5em;
-    margin-left: 0px;
-    margin-top: 0px;
-    background-color:rgb(30, 141, 205);
-    background-image: url("img/insta.svg");
-    background-repeat: no-repeat;
-    background-size: 90px;
-    background-position: top;
-    padding-top: 95px;
-    padding-bottom: 20px;
 }
 
 .att-white {
@@ -136,68 +113,9 @@ a:hover {
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: top;
-    background-color: rgb(30, 141, 205);
     padding-top: 38px;
     padding-bottom: 25px;
     font-size: 0.8em;
-}
-
-.list-text {
-    color: rgb(30, 141, 205);
-    font-weight: 700;
-    font-size: 1.5em;
-    margin-left: 10px;
-    margin-top: 10px;
-    background-image: url("img/txt.svg");
-    background-repeat: no-repeat;
-    background-size: 80px;
-    background-position: top;
-    padding-top: 90px;
-    text-align: center;
-}
-
-.list-time {
-    color: white;
-    font-weight: 700;
-    font-size: 1.5em;
-    margin-left: 0px;
-    margin-top: 0px;
-    background-color:rgb(30, 141, 205);
-    background-image: url("img/time.svg");
-    background-repeat: no-repeat;
-    background-size: 80px;
-    background-position: top;
-    padding-top: 85px;
-    padding-bottom: 20px;
-}
-
-.list-tg {
-    color: rgb(30, 141, 205);
-    font-weight: 700;
-    font-size: 1.5em;
-    margin-left: 10px;
-    margin-top: 10px;
-    background-image: url("img/tg.svg");
-    background-repeat: no-repeat;
-    background-size: 80px;
-    background-position: top;
-    padding-top: 90px;
-    text-align: center;
-}
-
-.list-emoji {
-    color: white;
-    font-weight: 500;
-    font-size: 1.5em;
-    margin-left: 0px;
-    margin-top: 0px;
-    background-color:rgb(30, 141, 205);
-    background-image: url("img/emoji.svg");
-    background-repeat: no-repeat;
-    background-size: 80px;
-    background-position: top;
-    padding-top: 85px;
-    padding-bottom: 20px;
 }
 
 footer {
@@ -220,10 +138,12 @@ footer {
     text-align: center;
     height: 40px;
     margin-top: 15px;
+    /* margin-bottom: 50px; */
+    padding-bottom: 50px;
 }
 
 .footer-soc-img {
-    height: 80px;
+    height: 90px;
     width: 130px;
     text-align: justify;
 }
