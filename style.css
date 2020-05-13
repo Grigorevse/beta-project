@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: rgb(30, 141, 205);
+    transition: 0.5s;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+a:hover {
+    color: #C92640;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.head-site {
+    max-width: 100%;
+    margin: 0 0% 0;
+    color:  rgb(30, 141, 205);
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.head-site img {
+    font-size: 1em;
+    height: 70px;
+}
+
+.section-back {
+    background-image: url(img/back.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 20px;
+    border-top: black;
+    border-width: 10px;
+}
+
+.actual-date {
+    margin: 0 0% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.actual-date img {
+    height: 30px;
+    padding-right: 10px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.feature h2 {
+    background-color: #cc3333;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin:  30px 0% 30px;
+}
+
+.number {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.number span:before {
+    content: "+"; 
+}
+
+.footer-phone {
+    background-image: url("img/phone.svg");
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.footer-soc {
+    text-align: center;
+    height: 40px;
+    margin-top: 15px;
+    /* margin-bottom: 50px; */
+    padding-bottom: 50px;
+    
+}
+
+.footer-soc-img {
+    height: 90px;
+    width: 130px;
+    border: 0em;   
+    text-align: justify;
+}
