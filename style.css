@@ -97,11 +97,6 @@ footer {
 }
 
 .footer-phone {
-    background-image: url("img/phone.svg");
-    background-repeat: no-repeat;
-    background-position-y: top;
-    background-position-x: center;
-    background-size: 80px;
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 10px;
