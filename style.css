@@ -93,7 +93,7 @@ footer {
 }
 
 .number span:before {
-    content: "+"; 
+    content: ""; 
 }
 
 .footer-phone {
